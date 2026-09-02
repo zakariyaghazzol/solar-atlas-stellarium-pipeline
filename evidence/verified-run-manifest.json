@@ -1,0 +1,348 @@
+{
+  "formatVersion": 1,
+  "generatedAt": "2026-04-03T15:03:57.444Z",
+  "sourceRoot": "Stellarium/stars/hip_gaia3",
+  "configFile": "Stellarium/stars/hip_gaia3/defaultStarsConfig.json",
+  "runtimeRecordLayout": {
+    "bytesPerRecord": 32,
+    "fields": [
+      {
+        "name": "x",
+        "type": "float32",
+        "offset": 0
+      },
+      {
+        "name": "y",
+        "type": "float32",
+        "offset": 4
+      },
+      {
+        "name": "z",
+        "type": "float32",
+        "offset": 8
+      },
+      {
+        "name": "magMilli",
+        "type": "int16",
+        "offset": 12
+      },
+      {
+        "name": "bvMilli",
+        "type": "int16",
+        "offset": 14
+      },
+      {
+        "name": "hip",
+        "type": "uint32",
+        "offset": 16
+      },
+      {
+        "name": "gaiaLow",
+        "type": "uint32",
+        "offset": 20
+      },
+      {
+        "name": "gaiaHigh",
+        "type": "uint32",
+        "offset": 24
+      },
+      {
+        "name": "componentId",
+        "type": "uint8",
+        "offset": 28
+      },
+      {
+        "name": "objectTypeIndex",
+        "type": "uint8",
+        "offset": 29
+      },
+      {
+        "name": "spectralIndex",
+        "type": "uint16",
+        "offset": 30
+      }
+    ]
+  },
+  "discoveredCatalogs": [
+    {
+      "id": "stars0",
+      "fileName": "stars_0_0v0_20.cat",
+      "checked": true,
+      "exists": true,
+      "sizeBytes": 242320,
+      "magRange": [
+        -2,
+        6
+      ]
+    },
+    {
+      "id": "stars1",
+      "fileName": "stars_1_0v0_16.cat",
+      "checked": true,
+      "exists": true,
+      "sizeBytes": 1037728,
+      "magRange": [
+        6,
+        7.5
+      ]
+    },
+    {
+      "id": "stars2",
+      "fileName": "stars_2_0v0_17.cat",
+      "checked": true,
+      "exists": true,
+      "sizeBytes": 6804736,
+      "magRange": [
+        7.5,
+        9
+      ]
+    },
+    {
+      "id": "stars3",
+      "fileName": "stars_3_0v0_10.cat",
+      "checked": true,
+      "exists": true,
+      "sizeBytes": 20075344,
+      "magRange": [
+        9,
+        10.5
+      ]
+    },
+    {
+      "id": "stars4",
+      "fileName": "stars_4_1v0_6.cat",
+      "checked": false,
+      "exists": false,
+      "sizeBytes": null,
+      "magRange": [
+        10.5,
+        12
+      ]
+    },
+    {
+      "id": "stars5",
+      "fileName": "stars_5_1v0_6.cat",
+      "checked": false,
+      "exists": false,
+      "sizeBytes": null,
+      "magRange": [
+        12,
+        13.75
+      ]
+    },
+    {
+      "id": "stars6",
+      "fileName": "stars_6_1v0_4.cat",
+      "checked": false,
+      "exists": false,
+      "sizeBytes": null,
+      "magRange": [
+        13.75,
+        15.5
+      ]
+    },
+    {
+      "id": "stars7",
+      "fileName": "stars_7_1v0_4.cat",
+      "checked": false,
+      "exists": false,
+      "sizeBytes": null,
+      "magRange": [
+        15.5,
+        16.75
+      ]
+    },
+    {
+      "id": "stars8",
+      "fileName": "stars_8_2v0_3.cat",
+      "checked": false,
+      "exists": false,
+      "sizeBytes": null,
+      "magRange": [
+        16.75,
+        18
+      ]
+    }
+  ],
+  "convertedCatalogs": [
+    {
+      "id": "stars0",
+      "fileName": "stars_0_0v0_20.cat",
+      "outputFile": "catalogs/stars0.bin",
+      "header": {
+        "magic": 2204042250,
+        "dataType": 0,
+        "majorVersion": 0,
+        "minorVersion": 20,
+        "level": 0,
+        "magnitudeMinimumMilli": -2000,
+        "catalogEpochJulianDay": 2457389
+      },
+      "zoneCount": 21,
+      "recordCount": 5046,
+      "sourceRecordBytes": 48,
+      "runtimeRecordBytes": 32,
+      "sourceSizeBytes": 242320,
+      "outputSizeBytes": 161472,
+      "starDataOffset": 112,
+      "stats": {
+        "magMilli": {
+          "min": -1460,
+          "max": 6000
+        },
+        "bvMilli": {
+          "min": -411,
+          "max": 5950
+        },
+        "hipCount": 5029,
+        "gaiaCount": 4974,
+        "brightest": {
+          "hip": 32349,
+          "gaiaId": "0",
+          "magMilli": -1460
+        }
+      }
+    },
+    {
+      "id": "stars1",
+      "fileName": "stars_1_0v0_16.cat",
+      "outputFile": "catalogs/stars1.bin",
+      "header": {
+        "magic": 2204042250,
+        "dataType": 0,
+        "majorVersion": 0,
+        "minorVersion": 16,
+        "level": 1,
+        "magnitudeMinimumMilli": 6000,
+        "catalogEpochJulianDay": 2457389
+      },
+      "zoneCount": 81,
+      "recordCount": 21612,
+      "sourceRecordBytes": 48,
+      "runtimeRecordBytes": 32,
+      "sourceSizeBytes": 1037728,
+      "outputSizeBytes": 691584,
+      "starDataOffset": 352,
+      "stats": {
+        "magMilli": {
+          "min": 6001,
+          "max": 7500
+        },
+        "bvMilli": {
+          "min": -1400,
+          "max": 10880
+        },
+        "hipCount": 20465,
+        "gaiaCount": 21612,
+        "brightest": {
+          "hip": 113503,
+          "gaiaId": "2718603526867397504",
+          "magMilli": 6001
+        }
+      }
+    },
+    {
+      "id": "stars2",
+      "fileName": "stars_2_0v0_17.cat",
+      "outputFile": "catalogs/stars2.bin",
+      "header": {
+        "magic": 2204042250,
+        "dataType": 0,
+        "majorVersion": 0,
+        "minorVersion": 17,
+        "level": 2,
+        "magnitudeMinimumMilli": 7500,
+        "catalogEpochJulianDay": 2457389
+      },
+      "zoneCount": 321,
+      "recordCount": 141738,
+      "sourceRecordBytes": 48,
+      "runtimeRecordBytes": 32,
+      "sourceSizeBytes": 6804736,
+      "outputSizeBytes": 4535616,
+      "starDataOffset": 1312,
+      "stats": {
+        "magMilli": {
+          "min": 7500,
+          "max": 18000
+        },
+        "bvMilli": {
+          "min": -4210,
+          "max": 9170
+        },
+        "hipCount": 96179,
+        "gaiaCount": 141738,
+        "brightest": {
+          "hip": 0,
+          "gaiaId": "6213939927734782336",
+          "magMilli": 7500
+        }
+      }
+    },
+    {
+      "id": "stars3",
+      "fileName": "stars_3_0v0_10.cat",
+      "outputFile": "catalogs/stars3.bin",
+      "header": {
+        "magic": 2204042250,
+        "dataType": 0,
+        "majorVersion": 0,
+        "minorVersion": 10,
+        "level": 3,
+        "magnitudeMinimumMilli": 9000,
+        "catalogEpochJulianDay": 2457389
+      },
+      "zoneCount": 1281,
+      "recordCount": 418129,
+      "sourceRecordBytes": 48,
+      "runtimeRecordBytes": 32,
+      "sourceSizeBytes": 20075344,
+      "outputSizeBytes": 13380128,
+      "starDataOffset": 5152,
+      "stats": {
+        "magMilli": {
+          "min": 9000,
+          "max": 10500
+        },
+        "bvMilli": {
+          "min": -1085,
+          "max": 5486
+        },
+        "hipCount": 0,
+        "gaiaCount": 418129,
+        "brightest": {
+          "hip": 0,
+          "gaiaId": "1919977276124082688",
+          "magMilli": 9000
+        }
+      }
+    }
+  ],
+  "skippedCatalogs": [
+    {
+      "id": "stars4",
+      "fileName": "stars_4_1v0_6.cat",
+      "reason": "catalog file not present locally"
+    },
+    {
+      "id": "stars5",
+      "fileName": "stars_5_1v0_6.cat",
+      "reason": "catalog file not present locally"
+    },
+    {
+      "id": "stars6",
+      "fileName": "stars_6_1v0_4.cat",
+      "reason": "catalog file not present locally"
+    },
+    {
+      "id": "stars7",
+      "fileName": "stars_7_1v0_4.cat",
+      "reason": "catalog file not present locally"
+    },
+    {
+      "id": "stars8",
+      "fileName": "stars_8_2v0_3.cat",
+      "reason": "catalog file not present locally"
+    }
+  ]
+}

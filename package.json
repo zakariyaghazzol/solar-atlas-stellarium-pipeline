@@ -1,0 +1,17 @@
+{
+  "name": "solar-atlas-stellarium-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Streaming conversion and validation pipeline for Stellarium type-0 star catalogs.",
+  "type": "module",
+  "scripts": {
+    "convert": "node scripts/stellarium-stars/convert.mjs",
+    "validate": "node scripts/stellarium-stars/validate.mjs",
+    "check": "node --check scripts/stellarium-stars/convert.mjs && node --check scripts/stellarium-stars/lib.mjs && node --check scripts/stellarium-stars/validate.mjs && node --check test/pipeline.test.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

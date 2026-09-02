@@ -1,0 +1,12 @@
+node_modules/
+build/
+tmp/
+data/source/
+*.cat
+*.bin
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
