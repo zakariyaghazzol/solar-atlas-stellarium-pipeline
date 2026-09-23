@@ -2,7 +2,7 @@
 
 A dependency-free Node.js pipeline that converts Stellarium type-0 star catalogs into a compact binary layout designed for real-time Babylon.js rendering, then validates record counts, byte sizes, known HIP stars, magnitudes, color indices, and normalized direction vectors.
 
-This repository is the public engineering-evidence component of the larger private **Solar Atlas** visualization project. It intentionally excludes the private application, installed Stellarium software, downloaded catalogs, and generated runtime binaries.
+This repository contains the catalog conversion and validation components used by **Solar Atlas**. The visualization application, Stellarium installation, downloaded catalogs, and generated runtime binaries are not included.
 
 ## What it does
 
